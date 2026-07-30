@@ -8,13 +8,15 @@ export function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
         <div className="max-w-sm">
           <Link href="#inicio" className="inline-flex items-center gap-3 text-white">
-            <Image
-              src="/ponto-virgula-P-transparente.png"
-              alt="Ponto e Vírgula"
-              width={40}
-              height={40}
-              className="rounded-3xl"
-            />
+            <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-black border border-neutral-700 overflow-hidden shadow-sm">
+              <Image
+                src="/ponto-virgula-P-editada.png"
+                alt="Ponto e Vírgula"
+                width={80}
+                height={80}
+                className="h-auto w-auto object-contain block"
+              />
+            </div>
             <span className="text-lg font-semibold">Ponto e Vírgula</span>
           </Link>
           <p className="mt-5 text-sm leading-7 text-slate-400">

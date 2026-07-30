@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/ponto-virgula-P-transparente.png",
+        url: "/ponto-virgula-P-editada.png",
         width: 1200,
         height: 630,
         alt: "Ponto e Vírgula",
