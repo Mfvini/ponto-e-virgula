@@ -29,7 +29,7 @@ export function Header() {
         </div>
         <nav className="hidden items-center gap-6 lg:flex xl:gap-8">
           {navItems.map((item) => (
-            <a key={item.id} href={`#${item.id}`} className="text-sm font-medium text-zinc-700 transition hover:text-blue-600">
+            <a key={item.id} href={`#${item.id}`} className="text-sm font-semibold text-zinc-700 transition hover:text-blue-600">
               {item.label}
             </a>
           ))}

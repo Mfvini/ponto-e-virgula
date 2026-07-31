@@ -102,10 +102,11 @@ export const portfolioProjects: ProjectItem[] = [
 ];
 
 export const aboutPoints: string[] = [
-  "Acreditamos em transparência: orçamentos claros e entrega pontual.",
-  "Alinhamos tecnologia com resultados reais, não com jargões desnecessários.",
-  "Usamos práticas de engenharia leve para proteger o seu site e acelerar o desenvolvimento.",
-  "Aplicamos inteligência artificial quando ela traz agilidade sem comprometer a qualidade.",
+  "Não vendemos sistemas complexos neste momento.",
+  "Não desenvolvemos e-commerces.",
+  "Não desenvolvemos ERPs.",
+  "Não desenvolvemos sistemas administrativos.",
+  "Aplicamos inteligência artificial quando ela traz agilidade sem comprometer a qualidade."
 ];
 
 export const faqItems: FAQItem[] = [
